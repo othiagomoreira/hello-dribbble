@@ -111,7 +111,7 @@ img {
     justify-content: space-between;
     align-items: center;
 }
-@media screen and (max-width: 768px) { /* Menu mobile */
+@media screen and (max-width: 767px) { /* Menu mobile */
     .nav-menu {
         position: absolute;
         top: var(--header-height); /* Pra que abra abaixo do header */
