@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Boxicons -->
-    <linkrel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
-    <!-- Css -->
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Hello Dribbble</title>
 </head>
 
 <body>
     <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <i class='bx bx-code-alt class nav-icon'></i>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Works</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Community</a></li>
+                </ul>
+            </div>
+            <div class="menu-toggle">
+                <i class='bx bx-menu nav-icon'></i>
+            </div>
+        </nav>
+    </header>
 
     <!-- Home -->
+    <main>
+        <div class="home container">
+            <div class="personal-information">
+                <h1 class="personal-title">Hello Dribbble</h1>
+                <h3 class="personal-name">I'am Thiago Almeida</h3>
+                <a href="#" class="btn">Explorar</a>
 
-    <!-- Main Script -->
+                <div class="personal-social-media">
+                    <span class="social-name">Follow me</span>
+                    <a href="" class="personal-social-icon">
+                        <i class='bx bxl-github social-icon'></i>
+                    </a>
+                    <a href="" class="personal-social-icon">
+                        <i class='bx bxl-linkedin-square social-icon'></i>
+                    </a>
+                    <a href="" class="personal-social-icon">
+                        <i class='bx bxl-instagram social-icon'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="assets/img/web_developer.svg" alt="image">
+            </div>
+        </div>
+    </main>
+
     <script src="assets/js/script.js"></script>
 </body>
 
